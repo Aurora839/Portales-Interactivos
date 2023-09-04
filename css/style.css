@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(246, 245, 240);
+}
+
+*{
+    text-align: left;
+
+
+}
+
+section{
+
+    height: 25%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(215, 216, 217);
+    background: linear-gradient(to bottom right, rgb(250, 234, 188), rgb(203, 190, 146));
+    
+}
+
+section h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+section#pie h1{
+    height: 50%;
+    width: 100%;
+    margin-left: 15%;
+    
+}
+.foto{
+    width: 250px;
+    height: 100%;
+    border-radius: 300px;
+    object-fit: cover;
+    float: right;
+    margin-left: 80%;
+    margin-block: 0px;
+}
+
+.dos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#SobreMi{
+    height: 190px;
+    width: 50%;
+    margin-right: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    float: right !important;
+    padding: auto;
+    position: relative;
+    right: auto;
+    
+}
+
+section#habilidades{
+    height: 190px;
+    width: 50%;
+    margin-left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    position: relative;
+    bottom: 209px;
+}
+
+section#education{
+    height: 190px;
+    width: 50%;
+    margin-right: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    position: relative;
+}
+
+section#experence{
+    height: 190px;
+    width: 50%;
+    margin-left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    position: relative;
+    bottom: 218px;
+}
